@@ -16,3 +16,7 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->group(['namespace' => 'Api'], function () use ($router) {
+    $router->get('/nrks', 'NrksController@index');
+});
