@@ -7,6 +7,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "laravel/lumen-framework": "^7.0",
+        "nordsoftware/lumen-cors": "^3.4",
         "tymon/jwt-auth": "^1.0"
     },
     "require-dev": {
